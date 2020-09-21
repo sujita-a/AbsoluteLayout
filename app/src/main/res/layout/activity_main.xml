@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="New Student Registration"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Code"
+        android:layout_x="5dp"
+        android:layout_y="40dp"/>
+
+    <EditText
+        android:id="@+id/student_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:layout_x="110dp"
+        android:layout_y="30dp"
+        android:hint="Enter Student Code"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name"
+        android:layout_x="5dp"
+        android:layout_y="90dp"/>
+
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:layout_x="110dp"
+        android:layout_y="80dp"
+        android:hint="Enter Student Name"
+        android:scrollHorizontally="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Fee"
+        android:layout_x="5dp"
+        android:layout_y="140dp"/>
+
+    <EditText
+        android:id="@+id/student_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:layout_x="110dp"
+        android:layout_y="130dp"
+        android:hint="Enter Student Fee"/>
+
+    <Button
+        android:id="@+id/click_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Student"
+        android:layout_x="80dp"
+        android:layout_y="190dp"/>
+
+</AbsoluteLayout>
